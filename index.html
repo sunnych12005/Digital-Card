@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="כרטיס הביקור הדיגיטלי של סאני צ׳יצ׳ילנצקי, סטודנט למדעי המחשב המתעניין בלמידה עמוקה ונתונים.">
+  <title>סאני צ׳יצ׳ילנצקי | כרטיס ביקור דיגיטלי</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- The checkbox and CSS below implement the theme switch without JavaScript. -->
+  <input class="theme-toggle" type="checkbox" id="theme-toggle" aria-label="מצב כהה">
+  <div class="site">
+    <header class="header container" id="top">
+      <a class="logo" href="#top" aria-label="סאני צ׳יצ׳ילנצקי - לראש העמוד"><span class="logo-icon">סצ</span> סאני צ׳יצ׳ילנצקי<span class="accent">.</span></a>
+      <nav class="navigation" aria-label="ניווט ראשי">
+        <a href="#about">עליי</a>
+        <a href="#skills">כישורים</a>
+        <a href="#projects">פרויקטים</a>
+        <a href="#contact">יצירת קשר</a>
+      </nav>
+      <label class="theme-control" for="theme-toggle"><span class="show-light">☾ מצב כהה</span><span class="show-dark">☀ מצב בהיר</span></label>
+    </header>
+
+    <main>
+      <section class="hero container" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">סטודנט למדעי המחשב · שנה ג׳</p>
+          <h1 id="hero-title">נעים להכיר,<br>אני <span>סאני צ׳יצ׳ילנצקי.</span></h1>
+          <p class="lead">אני מתעניין בלמידה עמוקה, בעבודה עם נתונים ובפתרון בעיות באמצעות טכנולוגיה.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">לפרויקטים שלי <span aria-hidden="true">←</span></a>
+            <a class="button button-outline" href="#contact">יצירת קשר</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/sunnych12005" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+            <!-- No personal LinkedIn profile was supplied; this opens LinkedIn's homepage. -->
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn (דף הבית) <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <figure class="portrait">
+          <img src="assets/profile.svg" width="440" height="440" alt="איור פרופיל של סאני צ׳יצ׳ילנצקי">
+          <figcaption>סקרנות · למידה · עשייה</figcaption>
+        </figure>
+      </section>
+
+      <section class="section container" id="about" aria-labelledby="about-title">
+        <div class="section-title"><span class="section-number">01 / ABOUT</span><h2 id="about-title">קצת עליי</h2></div>
+        <div class="about-layout">
+          <p class="statement">אני אוהב להבין איך מערכות עובדות, לפרק בעיות מורכבות ולמצוא להן פתרונות ברורים.</p>
+          <div class="body-copy">
+            <p>אני סטודנט בשנה השלישית למדעי המחשב בלימודי ערב. לצד הלימודים אני עובד בתעשייה האווירית. השילוב בין עבודה ללימודים חיזק אצלי אחריות, דיוק והתמדה.</p>
+            <p>בלימודים אני עוסק בתכנות ובאלגוריתמים, ומתעניין במיוחד בלמידה עמוקה ובשימוש בנתונים לפתרון בעיות. כאן אפשר לראות פרויקט Web קטן וכיווני עבודה שאני ממשיך לפתח.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tinted" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-title"><span class="section-number">02 / SKILLS</span><h2 id="skills-title">כישורים ותחומי עניין</h2></div>
+          <div class="card-grid three">
+            <article class="card"><span class="card-number">01</span><h3>תכנות ופתרון בעיות</h3><p>בסיס בלימודי תכנות, עבודה עם אלגוריתמים ומבני נתונים.</p><p class="tags"><span>C</span><span>C++</span><span>אלגוריתמים</span></p></article>
+            <article class="card"><span class="card-number">02</span><h3>פיתוח ממשקים</h3><p>בניית עמודי Web סמנטיים שמותאמים גם למסכי מחשב וגם לנייד.</p><p class="tags"><span>HTML</span><span>CSS</span><span>עיצוב רספונסיבי</span></p></article>
+            <article class="card"><span class="card-number">03</span><h3>נתונים ולמידה עמוקה</h3><p>עניין בניתוח נתונים, בלמידת מכונה ובפיתוח יכולות בתחום הלמידה העמוקה.</p><p class="tags"><span>נתונים</span><span>למידת מכונה</span></p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="projects" aria-labelledby="projects-title">
+        <div class="section-title"><span class="section-number">03 / PROJECTS</span><h2 id="projects-title">פרויקטים ודרך עבודה</h2></div>
+        <div class="card-grid two">
+          <article class="project-card"><div class="project-visual visual-web" aria-hidden="true"><span>&lt; / &gt;</span></div><div class="project-text"><p class="project-type">HTML · CSS</p><h3>כרטיס ביקור דיגיטלי</h3><p>האתר הזה: כרטיס ביקור בעברית עם פריסה רספונסיבית ומעבר בין מצב בהיר לכהה, כולו ב־HTML וב־CSS.</p></div></article>
+          <article class="project-card"><div class="project-visual visual-code" aria-hidden="true"><span>{ C++ }</span></div><div class="project-text"><p class="project-type">לימודי מדעי המחשב</p><h3>תרגול אלגוריתמים ותכנות</h3><p>במהלך הלימודים אני מתרגל פתרון בעיות, תכנון אלגוריתמים וכתיבת קוד ב־C וב־C++.</p></div></article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="container contact-layout">
+          <div><span class="section-number">04 / CONTACT</span><h2 id="contact-title">בואו נדבר.</h2><p>אפשר לפנות אליי לגבי עבודה, פרויקטים או שיחה מקצועית.</p></div>
+          <address class="contact-items">
+            <a href="mailto:sunny@example.com"><span>דואר אלקטרוני</span><strong dir="ltr">sunny@example.com</strong><span aria-hidden="true">↗</span></a>
+            <a href="tel:+972500000000"><span>טלפון</span><strong dir="ltr">050-000-0000</strong><span aria-hidden="true">↗</span></a>
+          </address>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container"><span>© 2026 סאני צ׳יצ׳ילנצקי</span><div><a href="https://github.com/sunnych12005" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn (דף הבית)</a></div><a href="#top">חזרה למעלה ↑</a></footer>
+  </div>
+</body>
+</html>
